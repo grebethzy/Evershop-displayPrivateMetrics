@@ -1,0 +1,22 @@
+{
+    "name": "displayprivatemetrics",
+    "version": "1.0.0",
+    "description": "This is an extension created for Evershop developed by @thenguyen, targeting to display user behavior metrics to users,  endowing right to be forgotten by GDPR to customers. ",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/grebethzy/evershop-extensions.git"
+    },
+    "keywords": [
+        "Evershop",
+        "display",
+        "private",
+        "metrics"
+    ],
+    "author": "grebethzy",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/grebethzy/evershop-extensions/issues"
+    },
+    "homepage": "https://github.com/grebethzy/evershop-extensions#readme"
+}
+

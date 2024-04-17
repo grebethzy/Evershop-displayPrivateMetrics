@@ -1,0 +1,79 @@
+.controls-container {
+  display: flex;
+  align-items: center; 
+  justify-content: start;
+  gap: 30px; 
+}
+  
+.date-deleter-container {
+  margin-left: auto;
+  display: flex;
+  align-items: center; 
+
+  .form-control {
+    width: auto; 
+    max-width: 200px; 
+  }
+
+  .delete-button {
+    margin-left: 8px; 
+  }
+}
+
+.calendar-heatmap {
+  height: 120px;
+}
+
+.year-selector-container {
+  display: flex;
+  overflow-x: auto;
+  justify-content: flex-end;
+  margin-bottom: 20px; 
+  scrollbar-width: thin;
+  scrollbar-color: #c0c0c0 transparent; 
+  align-items: center;
+
+  &::-webkit-scrollbar {
+    height: 12px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #c0c0c0;
+    border-radius: 20px;
+    border: 3px solid transparent; 
+  }
+}
+
+.year-selector {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px; 
+
+  .year-button {
+    padding: 0 15px;
+    border: 1px solid #d1d5da; 
+    background-color: transparent;
+    color: #24292e; 
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-size: 14px;
+    user-select: none;
+    height: 25px; 
+    line-height: 20px;
+    white-space: nowrap;
+
+    &:hover, &.selected {
+      background-color: #f6f8fa; 
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(3, 214, 77, 0.3); 
+    }
+  }
+}
