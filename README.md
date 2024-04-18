@@ -55,9 +55,7 @@ Edit the `config/default.json` file in the root directory of your EverShop insta
 ## Testing
 
 An account for testing purpose has been implemented: 
-
 Email: test@test.com
-
 Password: 123456
 
 Some fake actions has been added to this account for illustration purpose. 
