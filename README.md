@@ -1,9 +1,9 @@
 # Display private metrics extension for EverShop
 
-This extension is implemented based on two npm package - Evershop @thenguyen and addPrivateMetrics @grebethzy. 
+This extension is implemented based on two npm package - Evershop @thenguyen and add-private-metrics @grebethzy. 
 
-addPrivateMetrics allows you to track the essential e-commerce user actions: view, click, add to cart, checkout and order. 
-Based on this, displayPrivateMetrics illustrates those collected actions to users, granting user with right to be forgotten by GDPR. 
+add-private-metrics allows you to track the essential e-commerce user actions: view, click, add to cart, checkout and order. 
+Based on this, display-private-metrics illustrates those collected actions to users, granting user with right to be forgotten by GDPR. 
 
 > **Note**: This extension requires EverShop version 1.0.0-rc.9 or higher.
 
@@ -18,10 +18,10 @@ There are three approaches to install the Evershop application, please refer to:
 ### Step 1: Install the two extension using npm:
 
 ```bash
-npm i addPrivateMetrics
+npm i add-private-metrics
 ```
 ```bash
-npm i displayPrivateMetrics
+npm i display-private-metrics
 ```
 
 ### Step 2: Enable the extension
@@ -36,14 +36,14 @@ Edit the `config/default.json` file in the root directory of your EverShop insta
     "extensions": [
       ...,
       {
-        "name": "addPrivateMetrics",
-        "resolve": "node_modules/addPrivateMetrics",
+        "name": "add-private-metrics",
+        "resolve": "node_modules/add-private-metrics",
         "enabled": true,
         "priority": 10
       }, 
       {
-        "name": "displayPrivateMetrics",
-        "resolve": "node_modules/displayPrivateMetrics",
+        "name": "display-private-metrics",
+        "resolve": "node_modules/display-private-metrics",
         "enabled": true,
         "priority": 10
       }
